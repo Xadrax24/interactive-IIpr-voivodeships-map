@@ -1,0 +1,2 @@
+// Ładowanie całej mapy
+loadFullMap();

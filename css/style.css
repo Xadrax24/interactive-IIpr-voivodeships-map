@@ -1,0 +1,109 @@
+h2 {
+  text-align: center;
+}
+  svg {
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: #f0f0f0;
+    cursor: grab;
+  }
+  path {
+    fill: none;
+    stroke: black;
+    stroke-width: 2;
+  }
+
+  .wojewodztwo {
+    fill: none;
+    stroke: black;
+    stroke-width: 1;
+  }
+
+  .woj_pol {
+    fill: aqua;
+    stroke: none;
+  }
+
+  .pow_pol {
+    fill: aqua;
+    stroke: none;
+  }
+
+  .pow_pol:hover {
+    fill: orange;
+  }
+
+  .granice_pow {
+    fill: none;
+    stroke: black;
+    stroke-width: 0.5;
+  }
+
+  .pan_pol {
+    fill: aqua;
+    stroke: none;
+  }
+
+  .woj_polsk {
+    fill: aqua;
+    stroke: black;
+  }
+  .woj_pol:hover {
+    fill: orange;
+  }
+  circle:hover {
+    fill: orange;
+  }
+  #tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  #info {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #333;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    pointer-events: none; /* nie przeszkadza w klikaniu mapy */
+  }
+  #layer-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 10;
+    font-family: sans-serif;
+  }
+  #layer-controls label {
+    display: block;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+
+  #powiat-info {
+    display: none;
+    position: absolute;
+    bottom: 70px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #333;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+  }

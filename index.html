@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Interaktywna mapa Polski</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="layer-controls">
+    <label id="checkbox-panstwo"><input type="checkbox" checked data-layer="pan_poligony,pan_granica"> Państwo</label>
+    <label><input type="checkbox" checked data-layer="woj_poligony,woj_granica"> Województwa</label>
+    <label><input type="checkbox" checked data-layer="miasta"> Miasta</label>
+    <label><input type="checkbox" checked data-layer="pow_poligony,pow_granica"> Powiaty</label>
+  </div>
+  <h2>Interaktywna mapa II Rzeczpospolitej Polskiej</h2>
+  <svg></svg>
+  <div id="tooltip"></div>
+  <div id="info">II RP</div>
+  <div id="powiat-info">powiat</div>
+  <script src="js/config.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/interaction.js"></script>
+  <script src="js/main.js"></script>
+  
+</body>
+</html>
