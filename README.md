@@ -2,6 +2,9 @@
 
 An interactive web map of Poland built with use of **D3.js**, visualizig administrative division at different levels (voivodeships, counties).
 
+## 🎯 Demo
+[View final](https://xadrax24.github.io/interactive-IIpr-voivodeships-map/)
+
 ## 🛠 Features
 
     - Zoom and pan functionality
