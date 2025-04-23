@@ -1,0 +1,15 @@
+# systemowe
+.DS_Store
+Thumbs.db
+
+# edytory
+*.log
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# dane tymczasowe
+node_modules/
+dist/
+.env
